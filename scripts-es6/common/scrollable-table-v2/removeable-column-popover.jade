@@ -1,0 +1,8 @@
+#removeable-column-popover.popover.bottom.hide(
+  ng-click="$event.stopPropagation()")
+  .arrow
+  .popover-inner
+    .popover-content
+      ul
+        li(ng-click="tableCtrl.removeColumn()")
+          a Remove

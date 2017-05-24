@@ -1,0 +1,16 @@
+.dropdown-menu {
+  color: $black;
+  padding: 5px;
+  & > li {
+    & > a {
+      display: inline-block;
+      width: 100%;
+      padding: 3px 5px;
+    }
+  }
+  overflow: auto;
+}
+
+.cusip-dropdown {
+  position: initial;
+}

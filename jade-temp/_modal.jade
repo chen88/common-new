@@ -1,0 +1,9 @@
+.modal-header
+  block header
+    span.pull-right
+      i.fa.fa-times(ng-click="$dismiss();")
+.modal-body
+  block body
+.modal-footer
+  block footer
+    button.btn.btn-default(type="button" ng-click="$dismiss()") Close
