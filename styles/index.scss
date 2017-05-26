@@ -1,0 +1,26 @@
+$fa-font-path: "./../../node_modules/font-awesome/fonts";
+$navbar-inverse-link-color: #5AADBB;
+$icon-font-path: "./../../node_modules/bootstrap-sass/assets/fonts/bootstrap/";
+@import "./../../node_modules/angular-loading-bar/src/loading-bar.css";
+@import "./../../node_modules/angular-toastr/dist/angular-toastr.css";
+@import "./../../node_modules/font-awesome/scss/font-awesome";
+@import "./../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+
+  img.pull-right {
+    width: 50px;
+  }
+}
+
+@import "./../../src-common-wp/styles/variables";
+@import "./modules/variables";
+@import "./../../src-common-wp/styles/common-modules";
